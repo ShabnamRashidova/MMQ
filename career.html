@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- BOXİCONS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js"></script>
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="./images/icon/favicon.ico">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>Karyera</title>
+</head>
+
+<body>
+    <div class="scroll-btn"><i class="fa-solid fa-chevron-up"></i></div>
+    <header class="general-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-3 col-3 d-md-flex d-lg-none">
+                    <div class="menu-button">
+                        <i class="fa-solid fa-bars fa-2x text-white"></i>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <a href="./index.html" class="header-logo"><img src="./images/logo/mmq.png" alt="header_logo"></a>
+                </div>
+                <div class="col-lg-9 col-3">
+                    <div class="d-flex flex-column">
+                        <div class="header-right-block d-flex align-items-center justify-content-end">
+                            <div class="lang-select border-end me-2">
+                                <div class="dropdown">
+                                    <button class="dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        AZ
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="#">Ru</a></li>
+                                        <li><a class="dropdown-item" href="#">En</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <button class="search-toggle-btn" type="button" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                <i class="fas fa-search"></i>
+                            </button>
+
+
+
+                        </div>
+                        <nav class="nav mt-2">
+                            <ul class="nav-list w-100">
+                                <li class="nav-item"><a href="./index.html">Əsas səhifə</a></li>
+                                <li class="nav-item"><a href="./about.html">Haqqımızda</a></li>
+                                <li class="nav-item"><a href="./struktur.html">Struktur</a></li>
+                                <li class="nav-item"><a href="./news.html">Media</a></li>
+                                <li class="nav-item"><a href="">Tərəfdaşlar</a></li>
+                                <li class="nav-item"><a href="./career.html" class="active">Karyera</a></li>
+                                <li class="nav-item"><a href="./contact.html">Əlaqə</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section section" style="background: url('./images/bg/banner.png');">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="overlay">
+                        <div class="hero-content text-center">
+                            <h1 class="hero-title">KARYERA</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="search-area">
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <form action="">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Axtar.."
+                                aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <button type="submit" class="input-group-text" id="basic-addon2">
+                                <i class="fas fa-search"></i>
+                            </button>
+
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="vacancy-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 mb-3">
+                    <div class="vacancy">
+                        <div class="vacancy-header">
+                            <div class="vacancy-main-info">
+                                <div class="vacancy-title-content d-flex justify-content-between">
+                                    <h4 class="vacancy-title">Keyfiyyət mütəxəssisi</h4>
+                                    <div class="open-btn"> <i class="fa-solid fa-chevron-right"></i></div>
+                                </div>
+
+                                <div class="vacancy-tech-info  d-flex mb-3">
+                                    <div class="vacancy-location d-flex me-5">
+                                        <i class="fa-solid fa-location-dot mt-1"></i>
+                                        <div class="ms-2">Bakı</div>
+                                    </div>
+                                    <div class="vacancy-date d-flex">
+                                       <i class="fas fa-calendar mt-1"></i>
+                                        <div class="ms-2">25.01.2021</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" row vacancy-text-box">
+                            <div class="col-12 vacancy-text">
+                                <p>Keyfiyyətin idarə edilməsi departamentinin Kadrlar şöbəsi üzrə mütəxəssisi,
+                                    aparıcı mütəxəssisi. Öhdəliklər:
+                                </p>
+
+                                <ul>
+                                    <li>• Kadr hesabatlıqlarının hazırlanması, aidiyyəti üzrə təqdim edilməsi;</li>
+                                    <li>• Şikayət və müraciətlərin cavablandırılması, arayış və çıxarışların
+                                        hazırlanması;</li>
+                                    <li>• Proseslərin avtomatlaşdırılması üzrə layihələrdə iştirak,</li>
+                                    <li>• İşə qəbul, işdən azad olma, struktur dəyişiklikləri və digər dəyişikliklərlə
+                                        bağlı bütün bildirişləri elektron informasiya sisteminə daxil etmək;</li>
+                                    <li>• Bank üzrə vəzifə təlimatlarını tərtib etmək;</li>
+                                    <li>• Əmək kitabçalarının açılması, doldurulmas və saxlanılması;</li>
+                                </ul>
+                                <br>
+                                <ul>
+                                    <li><b>Cinsi:</b><span>Kişi,Qadın</span></li>
+                                    <li><b>Yaş:</b><span>18-35</span></li>
+                                    <li><b>Dil bilikləri:</b><span>Azərbaycan ,Rus</span></li>
+                                    <li><b>İş stajı:</b><span>1-3 il</span></li>
+                                    <li><b>İş qrafiki:</b><span>Həftədə 5 gün, 09:00 - 22:00</span></li>
+                                    <li><b>Əmək haqqı:</b><span>350 AZN+bonus+nahar şirkət tərəfindən verilir</span>
+                                    </li>
+                                    <li><b>Son müraciət:</b><span>31.08.2022</span></li>
+                                </ul>
+                                <button>Müraciət et</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="apply-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9">
+                    <form action="">
+                        <div class="section-title">MÜRACİƏT ÜÇÜN ƏRİZƏ</div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="input-group mb-3">
+                                    <label for="">Ad*</label>
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="input-group mb-3">
+                                    <label for="">Soyad*</label>
+                                    <input type="text">
+                                </div>
+
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="input-group mb-3">
+                                    <label for="">Nömrə*</label>
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="input-group mb-3">
+                                    <label for="">E-mail*</label>
+                                    <input type="email">
+                                </div>
+
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="input-group mb-3">
+                                    <label class="custom-file-upload">
+                                        <input type="file" />
+                                        <img src="./images/icon/Group 428.png" alt="">
+                                        <span>Fayl yüklə</span>
+                                    </label>
+                                </div>
+
+
+                            </div>
+                            <div class="col-lg-12">
+                                <button type="submit">Göndər</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="general-footer">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="footer-logo">
+                        <a href="./index.html"><img src="./images/logo/mmq.png" alt="footer_logo"></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="footer-block">
+                        <h4>“MƏİŞƏT MAYE QAZ” QSC</h4>
+                        <ul class="social-icons my-4">
+                            <li><a href="" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href="" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <ul class="footer-info-list">
+                        <li>Tel: <span>+994 50 999 99 99</span></li>
+                        <li>E-mail: <span>@gmail.com</span></li>
+                    </ul>
+                </div>
+                <div class="col-lg-12 mt-4">
+                    <p class="footer-copyright">© MƏİŞƏT MAYE QAZ QSC. All rights reserved </p>
+                </div>
+            </div>
+        </div>
+    </footer> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
